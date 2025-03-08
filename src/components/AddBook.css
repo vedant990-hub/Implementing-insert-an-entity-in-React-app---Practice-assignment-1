@@ -1,0 +1,73 @@
+/* src/components/AddBook.css */
+
+.add-book-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-book-container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .add-book-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-book-form label {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .add-book-form input,
+  .add-book-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .add-book-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .add-book-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .add-book-buttons button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .cancel-button:hover {
+    background-color: #c82333;
+  }
+  
